@@ -1329,6 +1329,50 @@ ul { list-style: none; }
   color: var(--primary-400);
 }
 
+/* ===== Lucide Icon Custom Styling ===== */
+.lucide {
+  stroke-width: 2px;
+  vertical-align: middle;
+}
+
+.nav-cta svg {
+  margin-right: 4px;
+}
+
+.about-feature-icon .lucide {
+  width: 18px;
+  height: 18px;
+  stroke-width: 2.5px;
+  color: var(--white);
+}
+
+.service-icon .lucide {
+  width: 28px;
+  height: 28px;
+  stroke-width: 2px;
+}
+
+.service-icon-1 .lucide { color: var(--primary-700); }
+.service-icon-2 .lucide { color: var(--accent-700); }
+.service-icon-3 .lucide { color: #4f46e5; }
+.service-icon-4 .lucide { color: #db2777; }
+.service-icon-5 .lucide { color: #059669; }
+.service-icon-6 .lucide { color: #7c3aed; }
+
+.why-card-icon .lucide {
+  width: 24px;
+  height: 24px;
+  stroke-width: 2px;
+  color: var(--white);
+}
+
+.contact-card-icon .lucide {
+  width: 22px;
+  height: 22px;
+  stroke-width: 2px;
+  color: var(--primary-600);
+}
+
 /* ===== Responsive Design ===== */
 
 /* Tablet */
